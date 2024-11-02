@@ -1,0 +1,105 @@
+{
+    "num_nodes": 500,
+    "simulation_time": 2000,
+    "num_epochs": 1,
+    "current_epoch": 0,
+    "num_slots": 10,
+    "num_shards": 50,
+    "principal_committee_size": 0.1,
+    "block_mu": 560,
+    "block_sigma": 50,
+    "transaction_mu": 26.66,
+    "transaction_sigma": 0.0,
+    "transaction_generation_num": 100,
+    "tx_value_low": 1,
+    "tx_value_high": 100,
+    "reward_percentage": 0.1,
+    "tx_block_capacity": 1,
+    "tx_blocks_in_mini_block": 1,
+    "cross_shard_tx_percentage": 0.8,
+    "cutoff_vote_percentage": 0.5,
+    "log_file": "simulation_results.log",
+    "Bshard_with_Ishard": 0,
+    "verbose": 0,
+    "chain_mode_type": 1,
+    "run_type": 1,
+    "locations": [
+        "Ireland",
+        "Tokyo",
+        "Ohio"
+    ],
+    "all_full_nodes": {},
+    "shard_nodes": {},
+    "Node_processing_delay": {},
+    "Node_transaction_generation_num": {},
+    "Number_of_votes_of_ordinary_segmented_nodes": {},
+    "Number_of_mini_Blocks_Generated_by_Segment_Leader_Nodes": {},
+    "Number_of_votes_of_non_leader_nodes_of_the_Organizing_Committee_on_mini_block": {},
+    "epoch_processed_tx_count": {},
+    "epoch_processed_intra_shard_tx_count": {},
+    "epoch_processed_cross_shard_tx_count": {},
+    "epoch_generated_tx_count": {},
+    "epoch_generated_intra_shard_tx_count": {},
+    "epoch_generated_cross_shard_tx_count": {},
+    "epoch_generated_tx_count_TPS": {},
+    "epoch_processed_tx_count_TPS": {},
+    "epoch_shard_generated_tx_count": {},
+    "epoch_shard_generated_intra_shard_tx_count": {},
+    "epoch_shard_generated_cross_shard_tx_count": {},
+    "epoch_shard_processed_tx_count": {},
+    "epoch_shard_processed_intra_shard_tx_count": {},
+    "epoch_shard_processed_cross_shard_tx_count": {},
+    "graph": {},
+    "frequent_transactions_custom": {},
+    "frequent_transactions_custom_num": 5,
+    "transaction_processing_mu": 1,
+    "transaction_processing_sigma": 4,
+    "delay_mu": 0.3,
+    "delay_sigma": 50,
+    "Node_delay": 30,
+    "load_capacity": 0,
+    "delay": {
+        "Ireland": {
+            "Ireland": {
+                "mu": 0.0010420075,
+                "sigma": 0.00020659828761088512
+            },
+            "Tokyo": {
+                "mu": 0.2220275,
+                "sigma": 0.00025834811785650774
+            },
+            "Ohio": {
+                "mu": 0.0846995,
+                "sigma": 0.00019583092197097128
+            }
+        },
+        "Tokyo": {
+            "Ireland": {
+                "mu": 0.2220275,
+                "sigma": 0.00025834811785650774
+            },
+            "Tokyo": {
+                "mu": 0.0005412275,
+                "sigma": 0.00011590502898386248
+            },
+            "Ohio": {
+                "mu": 0.1560425,
+                "sigma": 0.0006088462449584459
+            }
+        },
+        "Ohio": {
+            "Ireland": {
+                "mu": 0.0846995,
+                "sigma": 0.00019583092197097128
+            },
+            "Tokyo": {
+                "mu": 0.1560425,
+                "sigma": 0.0006088462449584459
+            },
+            "Ohio": {
+                "mu": 0.000566525,
+                "sigma": 0.000265358784243145
+            }
+        }
+    }
+}
