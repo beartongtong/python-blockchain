@@ -1,34 +1,7 @@
-<p align="center">
-    <img src="https://github.com/vishishtpriyadarshi/ShardEval/blob/main/docs/ShardEval.png">
-</p>
 
-<hr />
-
-# Basic Overview
-ShardEval is a **sharding-based blockchain simulator**. It can be used to simulate protocols for the sharding-based Blockchain systems. ShardEval is built on the top of [BlockEval](https://github.com/deepakgouda/BlockEval).
-
-The complete design and theoretical analysis can be found on [Springer](https://link.springer.com/chapter/10.1007/978-3-031-49099-6_21), accepted by [19th International Conference on Information and Systems Security (ICISS)](https://iciss.isrdc.in/2023/index.html).
-
-Following is a brief representation of the simulator workflow for sharded systems:
-
-![Worklfow](docs/workflow.png)
-
-# Setup
-```bash
-cd ShardEval
-pip install -r requirements.txt
-bash setup.sh
-```
 
 # Usage 
 The command-line interface for the doc-phi can be used as:
-
-```
- __ _                   _   __            _ 
-/ _\ |__   __ _ _ __ __| | /__\_   ____ _| |
-\ \| '_ \ / _` | '__/ _` |/_\ \ \ / / _` | |
-_\ \ | | | (_| | | | (_| //__  \ V / (_| | |
-\__/_| |_|\__,_|_|  \__,_\__/   \_/ \__,_|_|
 
 Usage: shard-eval [OPTIONS] COMMAND [ARGS]...
 
